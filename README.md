@@ -1,36 +1,26 @@
-# MLH Localhost <> Capital One
+# Twitter Scraper Fetcher: MLH Python Workshop
 
-This project contains the starter code for Basic Training: Bot Camp!
+This web app takes the user's message and a person's Twitter handle and uses the Twitter API to request 10,000 tweets from the person. The Flask Python library is used to handle requests and responses. Lastly, the app uses scraping and formatting techniques to clean the tweets and pass the information to the Markovify library (maintained by GitHub user jsvine) to generate appropriate responses.
 
-Your Project
-------------
-Click `Show` above and it will launch the app in a new browser tab. It starts by running the `main.py` program.
+### twitter_scraper_fetcher.py
 
-### ← README.md
+Python file that contains functions which scrape data from Twitter.
 
-That's this file!
+### config.py
 
-### ← twitter_scraper_fetcher.py
+File that sets some global variables.
 
-A Python file that contains functions which scrape data from Twitter.
+### requirements.txt
 
-### ← config.py
+File that keeps track of which library versions are being used.
 
-This file sets some global variables (variables that are used by other parts of the program).
+### main.py
 
-### ← requirements.txt
+Main Python script that starts the webpage and processes the scraper requests.
 
-This file keeps track of which library versions we are using.
+### static/ folder
+Folder that contains the JavaScript, CSS and images that the web app uses.
 
-### ← main.py
-
-This main Python script starts the webpage and processes the scraper requests.
-
-### ← static/ folder
-
-This folder contains the JavaScript, CSS and images that the web app uses.
-
-### ← homepage.html
+### homepage.html
 
 This launches the webpage of the Twitter app.
-
