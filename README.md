@@ -24,3 +24,6 @@ Folder that contains the JavaScript, CSS and images that the web app uses.
 ### homepage.html
 
 This launches the webpage of the Twitter app.
+
+## Demonstration
+![Twitter Bot Demo](demo/demo.gif)
